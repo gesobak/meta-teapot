@@ -81,14 +81,6 @@ with a bootable mainline kernel and u-boot.
 
 ### Configure bblayers.conf (conf/bblayers.conf):
 
-	Add the following lines to "BBLAYERS":
-	--- % ---
-	/home/georg/bananpi/oe-core/meta-openembedded/meta-oe \
-	/home/georg/bananpi/oe-core/meta-teapot \
-	--- % ---
-
-### Configure bblayers.conf (conf/bblayers.conf):
-
 	LCONF_VERSION = "5"
 
 	BBPATH = "${TOPDIR}"
